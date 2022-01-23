@@ -1,0 +1,161 @@
+:root {
+    --main-color: #e02f6b;
+    --blue: #0000ff;
+    --blue-dark: #18293c;
+    --orange: #ffa500;
+    --green-yellow: #cddc39;
+    --pink-light: #efa2b4;
+    --cyan-light: #aaf1ee;
+    --white: #ffffff;
+    --white-alpha-40: rgba(255, 255, 255, 0.40);
+    --white-alpha-25: rgba(255, 255, 255, 0.25);
+    --backdrop-filter-blur: blur(100px);
+}
+body {
+    background-image: linear-gradient(to top left, rgba(3, 184, 255, 0.932), rgb(255, 0, 0));
+    font-size: 1rem;
+    color: var(--blue-dark);
+    line-height: 1.5;
+    margin: 30px;
+    padding: 40px;
+    backdrop-filter: var(--backdrop-filter-blur);
+    
+    
+}
+
+
+/* .row{
+    padding: 4%;
+} */
+
+section {
+    background-color: var(--white-alpha-25);
+    border: 1px solid var(--white-alpha-40);
+    border-radius: 30px;
+    backdrop-filter: var(--backdrop-filter-blur);
+    /* min-height:500px; */
+    margin: 40px;
+    
+}
+
+
+ .container-fluid {
+    padding: 3% 10% 7%;
+  }
+
+  .home-text{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2rem;
+  }
+.home-text h1{
+    font-family: 'Oooh Baby', cursive;
+    font-size: 3rem;
+    padding: 4px;
+}
+.home-text h2{
+
+    font-family: 'Spline Sans', sans-serif;
+    line-height: 2;  
+}
+ 
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+.hidden {
+    display: none;
+}
+
+img{
+    width: 250px;
+    border-radius: 50%;
+    border: solid 8px var(--white-alpha-40);
+}
+.home-img{
+    padding: 40px;
+    text-align: center;
+}
+/* About-section */
+.about-title ,  .education-title,.contact-title{
+    text-align: center;
+}
+.about-text{
+    padding: 5%;
+    line-height: 1.5;
+}
+.skills{
+   padding:20px 0 40px 0 ;
+   text-align: center;
+}
+.skills h2{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    margin: 10px;
+}
+
+.list-group{
+    padding: 4%;
+}
+.list-group-item{
+    border-radius: 20px;
+    margin: 20px;
+    background-color: var(--white-alpha-40);
+}
+ .list-group-item.active{
+    background-color: linear-gradient(to top left,var(--white-alpha-40),var(--cyan-light));
+    border-color: red;
+    color: var(--blue-dark);
+
+}
+
+.contact-form{
+    padding: 30px;
+}
+.form-group{
+    margin: 10px;
+}
+
+@media (max-width: 1028px) {
+    body,html{
+        overflow-x: hidden;
+    }
+    
+    .home-text{
+        width: 100%;
+    }
+    .home-img {
+      position: static;
+      text-align: center;
+    
+      
+    
+      
+     }
+    
+    }
